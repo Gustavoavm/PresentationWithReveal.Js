@@ -111,14 +111,14 @@
 						Write content using inline or external Markdown.
 						Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
 
-						```
+						````
 						<section data-markdown>
 						  ## Markdown support
 
 						  Write content using inline or external Markdown.
 						  Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
 						</section>
-						```
+						````
 					</script>
 				</section>
 
@@ -301,7 +301,9 @@ function linkify( selector ) {
 				<section>
 					<h2>Clever Quotes</h2>
 					<p>
-						These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">The nice thing about standards is that there are so many to choose from</q> and block:
+						These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+							The nice thing about standards is that there are so many to choose from</q>
+							 and block:
 					</p>
 					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
 						&ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
@@ -348,9 +350,9 @@ function linkify( selector ) {
 						Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.
 					</p>
 					<pre><code class="javascript" data-trim contenteditable style="font-size: 18px;">
-Reveal.addEventListener( 'customevent', function() {
-	console.log( '"customevent" has fired' );
-} );
+        Reveal.addEventListener( 'customevent', function() {
+     	console.log( '"customevent" has fired' );
+        } );
 					</code></pre>
 				</section>
 
